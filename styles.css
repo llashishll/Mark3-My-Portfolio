@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body
 {
- color:red;
+font-family: 'Poppins', sans-serif;
+
 }
 
 h1{
     color: blue;
+}
+
+#main-header
+{
+   color: cyan
+   ;     
+}
+.container-centered
+{
+    padding-left: 20rem;
 }
