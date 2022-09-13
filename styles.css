@@ -7,9 +7,9 @@ font-family: 'Poppins', sans-serif;
 }
  :root {
     --primary-color: #a52b2b;
-    --off-white: #F3F4F6;
-    --dark-gray: #6B7280;
-}
+    --reddish:#ef4444;
+    --darkgrey: rgb(55 65 81);}
+
 hr {
     margin: 2rem 0rem;
 }
@@ -35,21 +35,22 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    text-align: center;
+    margin:auto;
 }
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     color: white;
     display: block;
-    max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
+    max-width: 130px;
+    margin: 0.5rem;
 }
-
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+    border: solid var(--primary-color);
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
@@ -64,7 +65,7 @@ hr {
     padding-inline-start: 0px;
 }
 
-.list-item-inline {
+.list-inline-item {
     display: inline;
     padding: 0rem 0.5rem;
 }
@@ -112,33 +113,32 @@ hr {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color: var(--dark-gray);
+    color: var(--grey);
 }
 
-.hero .hero-heading .heading-inverted {
+.hero  .hero-heading .heading-inverted{
     color: var(--primary-color);
+
+
 }
 
 /** sections **/
 
 .section {
-    padding: 2rem;
-}
+    padding: 1rem;}
+ 
 
 .section h1 {
-    text-align: center;
+        color:var(--primary-color);
+        text-align: center;
 
 }
-
-.ow {
-    background-color: var(--off-white);
-}
-
 /** footers **/
 
 .footer {
+   
     background-color: var(--primary-color);
-    padding: 4rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -165,4 +165,9 @@ hr {
 /** Blogs **/
 .showcase-blog {
     padding-bottom: 6rem;
+}
+.page-header{
+color:var(--darkgrey);
+text-align: center;
+
 }
