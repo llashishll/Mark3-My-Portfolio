@@ -5,123 +5,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href = "styles.css" rel = "stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
     <title>Ashish's Portfolio</title>
 </head>
 
 <body>
-<h1 id="main-header">Ashish's Component Library</h1>
-<p> I am making my Portfolio by watching neog camp level zero tutorials. In order to have a proper portfolio website, I
-    am
-    making a component library.</p>
-<hr>
-<h2>1.Typography</h2>
+    <h1 id="main-header">Ashish's Component Library</h1>
+    <p> I am making my Portfolio by watching neog camp level zero tutorials. In order to have a proper portfolio
+        website, I
+        am
+        making a component library.</p>
+    <hr>
+    <h2>1.Typography</h2>
 
-<h1>This is the biggest heading</h1>
-<h2>This is second biggest heading </h2>
-<h3>This is third biggest heading and there are a total of 6 levels of heading depending upon the size</h3>
+    <h1>This is the biggest heading</h1>
+    <h2>This is second biggest heading </h2>
+    <h3>This is third biggest heading and there are a total of 6 levels of heading depending upon the size</h3>
 
-<p>This is a <span><b><i><u>paragraph</u></i></b></span> tag element which takes the whole width of
-    the screen by default.</p>
+    <p>This is a <span><b><i><u>paragraph</u></i></b></span> tag element which takes the whole width of
+        the screen by default.</p>
 
-<small>This small tag is usually used intentionally for displaying "Terms and Conditions". </small>
+    <small>This small tag is usually used intentionally for displaying "Terms and Conditions". </small>
 
-<hr>
-<h2>2.Containers</h2>
-<h3>Fluid Container</h3>
-<p class = container-fluid>This is a fluid container which go till the end of the page </p>
+    <hr>
+    <h2>2.Containers</h2>
+    <h3>Fluid Container</h3>
+    <p class="container">This is a fluid container which go till the end of the page </p>
 
-<h2>Center Container</h2>
-<p class = container-centered>This is a centered container which will take a specific defined space in the center of the page.</p>
+    <h2>Center Container</h2>
+    <p class="container-centered"></p>This is a centered container which will take a specific defined space in the
+    center of the page.</p>
 
-<hr>
+    <hr>
 
-<h2>3.Links</h2>
+    <h2>3.Links</h2>
 
-<a target="_blank" href="!">Primary Link</a>
-<a target="_blank" href="!">Secondary Link</a>
+    <a class="link link-primary" target="_blank" href="!">Primary Link</a>
+    <a class="link link-secondary" target="_blank" href="!">Secondary Link</a>
 
-<hr>
+    <hr>
 
-<h2>4.Lists</h2>
+    <h2>4.Lists</h2>
 
-<h3>Unordered Lists</h3>
+    <h3>Unordered Lists</h3>
 
-<ul>
-    <li>Mercury</li>
-    <li>Venus</li>
-    <li>Earth</li>
-    <li>Mars</li>
-</ul>
-
-<h3>Unordered inline list</h3>
-
-<ul>
-    <li>Jupiter</li>
-    <li>Saturn</li>
-    <li>Uranus</li>
-    <li>Neptune</li>
-
-</ul>
-
-
-<h3> Reversed Ordered List</h3>
-<ol>
-    <li>Mercury</li>
-    <li>Venus</li>
-    <li>Earth</li>
-    <li>Mars</li>
-
-</ol>
-<hr>
-<h2>5.Navigation Bar</h2>
-
-<h1>Ashish Kalra</h1>
-
-<nav>
-    <ul>
-        <li><a href="a">Home</a></li>
-        <li><a href="b">Projects</a></li>
-        <li><a href="c">Blogs</a></li>
+    <ul class="list-non-bullet">
+        <li>Mercury</li>
+        <li>Venus</li>
+        <li>Earth</li>
+        <li>Mars</li>
     </ul>
 
-</nav>
+    <h3>Unordered inline list</h3>
 
-<h2>6.Header</h2>
+    <ul class="list-non-bullet">
+        <li class="list-inline-item"><a href="1">Jupiter</a></li>
+        <li class="list-inline-item"><a href="1">Saturn</a></li>
+        <li class="list-inline-item"><a href="1">Uranus</a></li>
+        <li class="list-inline-item"><a href="1">Neptune</a></li>
 
-<img width=500 src="image.svg" />
-<h1>This is heading h1 inside a header </h1>
+    </ul>
 
-<hr>
-<h2>7.Section</h2>
-<p>A section is used to separate different part of a page.It can also be use to display similar type of content. </p>
 
-<h3>A.Default Section</h3>
-<section>
-    <h3>Heading of the section </h3>
-    <p>Section defining details and info about the relevant topic.</p>
-    <button>Primary Button</button>
-</section>
+    <h3> Reversed Ordered List</h3>
+    <ol>
+        <li>Mercury</li>
+        <li>Venus</li>
+        <li>Earth</li>
+        <li>Mars</li>
 
-<h3>A.Section with an Off-white background</h3>
-<section>
-    <h3>Heading of the Off-White section </h3>
-    <p>Section defining details and info about the relevant topic.</p>
-    <button>Primary Button</button>
+    </ol>
+    <hr>
+    <h2>5.Navigation Bar</h2>
 
-</section>
+    <nav class="navigation container">
+        <div class="nav-header">Ashish Kalra</div>
+        <ul class="list-non-bullet">
+            <li class="list-inline-item"><a class="link link-active" href="a">Home</a></li>
+            <li class="list-inline-item"><a class="link" href="b">Projects</a></li>
+            <li class="list-inline-item"><a class=link href="c">Blogs</a></li>
+        </ul>
 
-<h2>Footer</h2>
+    </nav>
 
-<footer>
-<h3>Heading of footer</h3>
-<ul>
-<li><a href="A">Social A</a></li>
-<li><a href="b">Social B</a></li>
-<li><a href="Av">Social C</a></li>
-</ul>
+    <h2>6.Header</h2>
 
-</footer>
+    <header class="hero">
+        <img class="hero-img" width=500 src="image.svg" />
+        <h1 class="hero-heading">This is heading h1 inside <span class="heading-inverted">a header</span> </h1>
+    </header>
+
+    <hr>
+
+    <h2>7.Section</h2>
+    <section class="section">
+        <div class="container container-centered">
+            <h2>Heading of the section </h2>
+            <p>Section defining details and info about the relevant topic.</p>
+            <button>Primary Button</button>
+        </div>
+    </section>
+
+    <h3>A.Section with an Off-white background</h3>
+    <section class="section ow">
+        <div class="container container-centered">
+
+            <h3>Heading of the Off-White section </h3>
+            <p>Section defining details and info about the relevant topic.</p>
+            <button>Primary Button</button>
+        </div>
+    </section>
+
+    <h2>Footer</h2>
+
+    <footer class="footer">
+        <h3 class="footer-header">Heading of footer</h3>
+        <ul class=list-non-bullet>
+            <li class="list-inline-item"><a class="link" target="_blank" href="A">Social A</a></li>
+            <li class="list-inline-item"><a class="link" target="_blank" href="b">Social B</a></li>
+            <li class="list-inline-item"><a class="link" target="_blank" href="C">Social C</a></li>
+        </ul>
+
+    </footer>
 
 </body>
 

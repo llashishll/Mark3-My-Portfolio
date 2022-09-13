@@ -5,17 +5,4 @@ body
 font-family: 'Poppins', sans-serif;
 
 }
-
-h1{
-    color: blue;
-}
-
-#main-header
-{
-   color: cyan
-   ;     
-}
-.container-centered
-{
-    padding-left: 20rem;
-}
+ 
