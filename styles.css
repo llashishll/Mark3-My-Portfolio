@@ -49,10 +49,10 @@ hr {
 }
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     border: solid var(--primary-color);
     display: block;
-    max-width: 140px;
+    max-width: 130px;
     margin: 1rem 1rem 1rem 0rem;
 }
 
@@ -120,6 +120,11 @@ hr {
     color: var(--primary-color);
 
 
+}
+.hero p {
+    max-width: 700px;
+    text-align: center;
+    margin:auto
 }
 
 /** sections **/
