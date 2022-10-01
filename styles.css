@@ -46,7 +46,7 @@ hr {
     color: white;
     display: block;
     max-width: 130px;
-    margin: 0.5rem;
+    margin: 1rem 1rem 1rem 0rem;
 }
 .link-secondary {
     color: var(--primary-color);
@@ -131,7 +131,19 @@ hr {
 /** sections **/
 
 .section {
-    padding: 1rem;}
+    padding: 1rem;
+    border:2px solid var(--primary-color);
+    max-width: fit-content;
+    margin:auto;
+    text-align: center;
+
+    }
+.section-home {
+    padding: 1rem;
+    max-width: fit-content;
+    margin:auto;
+
+    }
  
 
 .section h1 {
