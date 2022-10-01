@@ -154,7 +154,7 @@ hr {
 /** footers **/
 
 .footer {
-   
+   margin-top: 2rem;
     background-color: var(--primary-color);
     padding: 1rem 1rem;
     text-align: center;
